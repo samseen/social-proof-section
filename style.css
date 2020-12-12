@@ -102,3 +102,13 @@ p.header-text {
     border-radius: 1rem;
     padding: 2rem;
 }
+
+.cust-img img {
+    border-radius: 50%;
+    width: 50%;
+    height: auto;
+}
+
+.customer-header {
+    display: flex;
+}
