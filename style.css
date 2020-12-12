@@ -15,15 +15,12 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    border: 1px red solid;
 }
 
 .right-container {
     display: flex;
-    /* justify-content: flex-end; */
     flex: 1;
     flex-direction: column;
-    border: 1px blue solid;
 }
 
 .m-l-6 {
@@ -38,12 +35,20 @@ body {
     margin-left: calc(30% - 1rem);
 }
 
-/* .star-ratings {
-    display: flex;
-    flex-direction: column;
-    border: 5px brown solid;
-    align-self: stretch;
-} */
+.review-text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    padding-left: 1rem;
+}
+
+.star-container {
+    font-size: 80%;
+}
+
+.star-container .img {
+    width: 80%;
+    height: auto;
+}
 
 .testimonials {
     grid-area: hb;
