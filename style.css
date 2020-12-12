@@ -125,3 +125,7 @@ p.header-text {
     margin-top: 0;
     color: hsl(333, 80%, 67%);
 }
+
+.customer-body {
+    color: hsl(0, 0%, 100%);
+}
