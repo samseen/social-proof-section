@@ -112,3 +112,16 @@ p.header-text {
 .customer-header {
     display: flex;
 }
+
+.cust-name {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 100%);
+}
+
+.cust-type {
+    font-size: 80%;
+    margin-top: 0;
+    color: hsl(333, 80%, 67%);
+}
