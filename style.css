@@ -71,11 +71,11 @@ p.header-text {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-rows: minmax(250px, auto);
+    grid-template-rows: 250px, 200px;
     grid-template-areas: 
         "hd hd hd"
         "ha hb hc";
-    column-gap: 50px;
+    column-gap: 30px;
 }
 
 .t-1 {
@@ -128,4 +128,12 @@ p.header-text {
 
 .customer-body {
     color: hsl(0, 0%, 100%);
+}
+
+.m-t-1 {
+    margin-top: 1rem;
+}
+
+.m-t-2 {
+    margin-top: 2rem;
 }
