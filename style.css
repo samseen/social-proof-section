@@ -24,6 +24,17 @@ body {
     width: 300px;
 }
 
+p.header-text {
+    margin: 0;
+}
+
+.sub-text {
+    color: hsl(303, 10%, 53%);
+    font-size: 80%;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
 .right-container {
     display: flex;
     flex: 1;
