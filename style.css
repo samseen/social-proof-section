@@ -17,6 +17,13 @@ body {
     flex: 1;
 }
 
+.header-text {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 200%;
+    width: 300px;
+}
+
 .right-container {
     display: flex;
     flex: 1;
