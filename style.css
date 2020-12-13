@@ -71,7 +71,7 @@ p.header-text {
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 250px, 200px;
+    grid-template-rows: 250px, 250px;
     grid-template-areas: 
         "hd hd hd"
         "ha hb hc";
@@ -101,6 +101,7 @@ p.header-text {
     background: hsl(300, 43%, 22%);
     border-radius: 1rem;
     padding: 2rem;
+    height: 180px;
 }
 
 .cust-img img {
